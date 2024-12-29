@@ -39,9 +39,10 @@ def Recommendations(gender, part_time_job, absence_days, extracurricular_activit
 
 
 # Streamlit application interface
-st.title('Career Path Recommendation')
 
 st.image('images/img.png', use_column_width=True)
+
+st.title('Career Path Recommendation')
 
 # Sidebar with two columns for inputs
 st.sidebar.header('Input Features')
