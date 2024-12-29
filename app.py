@@ -40,7 +40,7 @@ def Recommendations(gender, part_time_job, absence_days, extracurricular_activit
 
 # Streamlit application interface
 
-st.image('images/img.png', use_column_width=True)
+st.image('images/img.png')
 
 st.title('Career Path Recommendation')
 
